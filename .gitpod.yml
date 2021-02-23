@@ -2,3 +2,6 @@ image:
   file: .gitpod.dockerfile
 tasks:
  - init: . ${GITPOD_REPO_ROOT}/.theia/init_tasks.sh
+vscode:
+  extensions:
+    - esbenp.prettier-vscode@5.9.2:/ZjVG4nabMGxTqOcyglnfQ==
